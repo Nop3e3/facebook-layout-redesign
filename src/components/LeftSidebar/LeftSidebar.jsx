@@ -1,6 +1,6 @@
 import React from 'react';
 import './LeftSidebar.css';
-import img from "../../assets/Vector.svg";
+import img from "../../assets/Vectorr.svg";
 
 export default function LeftSidebar() {
 return (

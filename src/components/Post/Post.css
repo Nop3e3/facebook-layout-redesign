@@ -1,0 +1,28 @@
+.rowww{
+    display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+}
+.post{
+    display: flex;
+width: 160px;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+width: 170px;
+height: 215px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+align-items: center;
+padding-top: 10px;
+color: #000;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.18);
+}

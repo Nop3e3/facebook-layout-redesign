@@ -1,0 +1,59 @@
+.topp{
+    display: flex;
+align-items: flex-end;
+gap: 11px;
+color: #65676B;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-self: stretch;
+}
+.inppt{
+    display: flex;
+padding: 10px;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+border-radius: 31px;
+background: #F0F2F5;
+border: none;
+}
+.optionn{
+    display: flex;
+align-items: center;
+gap: 6px;
+color: #65676B;
+flex-direction: row;
+font-family: arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bottomm{
+    display: flex;
+padding: 14px 0;
+justify-content: center;
+align-items: center;
+gap: 94px;
+flex-direction: row;
+align-self: stretch;
+width: 100%;
+border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.composer{
+   display: flex;
+width: 710px;
+height: 128px;
+padding: 0 27px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 6px;
+flex-shrink: 0;
+
+border-radius: 7px;
+background: #FFF;}
