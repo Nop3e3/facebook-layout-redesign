@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import LeftSidebar from './components/LeftSidebar/LeftSidebar';
+import Stories from './components/Stories/Stories';
+import Composer from './components/Composer/Composer';
+import Post from './components/Post/Post';
+import RightSidebar from './components/RightSidebar/RightSidebar';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+const POST_IMAGE = process.env.PUBLIC_URL + '/post.jpg';
+
+
+export default function App() {
+return (
+<div className="app-wrap">
+<LeftSidebar />
+<main className="center">
+<Stories />
+<Composer />
+<section className="feed">
+<Post image={POST_IMAGE} />
+<Post image={POST_IMAGE} />
+<Post image={POST_IMAGE} />
+</section>
+</main>
+<RightSidebar />
+</div>
+);}
