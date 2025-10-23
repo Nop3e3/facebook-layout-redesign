@@ -1,0 +1,24 @@
+.watchh{
+
+
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 21px;
+}
+  
+.stuff{
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 21px;
+}
+.Sidebarr{
+ display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 41px;   
+}
