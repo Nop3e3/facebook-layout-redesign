@@ -1,7 +1,10 @@
 import React from 'react';
 import './Confirm.css';
-import img from "../../assets/Vector.svg";
+const Confirm = () => {
+    return ( 
+        <button class="btn"> Confirm </button>
 
-export default function Confirm() {(
-<button class="btn"> Confirm </button>);
+     );
 }
+ 
+export default Confirm;
