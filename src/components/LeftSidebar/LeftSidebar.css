@@ -1,0 +1,11 @@
+.row{color: #000;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6px;}
