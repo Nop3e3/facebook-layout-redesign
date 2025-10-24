@@ -1,8 +1,8 @@
 import React, { components} from 'react';
 import Stories from './../components/Stories/Stories';
-
+import Streamm from '../components/Streamm/Streamm';
 import Post from './../components/Post/Post';
-import RightSidebar from './../components/RightSidebar/RightSidebar';
+import Person from '../components/Person/Person';
 import LeftSidebar from './../components/LeftSidebar/LeftSidebar';
 import Confirm from './../components/Confirm/Confirm';
 import Titles from './../components/Titles/Titles';
@@ -35,7 +35,8 @@ const Home = () => {
 <Uxui />
 <Uxui />
 <Uxui />
-<Uxui /></div> </div> <div className='coll'>
+<Uxui /></div> </div> 
+<div className='coll'>
 <div className='posts'>
     <Post />
     <Post />
@@ -43,7 +44,21 @@ const Home = () => {
     <Post />
 </div>
 <Composer />
-</div> </div> 
+<Stories />
+<Stories />
+<Stories />
+</div> 
+<div className='sidddde'>
+<Titles />
+<Person />
+<Person />
+<Titles />
+<Streamm />
+<Streamm />
+<Streamm />
+<Streamm />
+<Streamm />
+<Streamm /></div></div> 
   </div>
 
     </div> );

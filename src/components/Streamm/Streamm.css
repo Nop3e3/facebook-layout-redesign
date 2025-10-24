@@ -1,0 +1,42 @@
+.ttle{
+    color: #000;
+
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fill{
+    color: #000;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cmore{
+    color: #1877F2;
+
+font-family: Arial;
+
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fo2b3d{
+    display: flex;
+width: 238px;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+flex-shrink: 0;
+}
+.Twitchh{
+    display: flex;
+width: 292px;
+justify-content: space-between;
+align-items: center;
+}
